@@ -16,7 +16,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sejarah = $_POST['sejarah'];
     $visi = $_POST['visi'];
     $misi = $_POST['misi'];
-    
     $foto_lama = $_POST['foto_lama'];
     $nama_foto_db = $foto_lama;
 
